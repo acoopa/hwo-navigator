@@ -13,6 +13,7 @@ HWO-Navigator is an interactive map of exoplanet candidates that allows users to
 HWO-Navigator is a single-page [Next.js](https://nextjs.org/) application leveraging [D3.js](https://d3js.org/) visualization capabilities. On first load, the application makes a single API call to retrieve data from the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/). The exoplanet locations are then mapped onto a Mollweide projection using the galactic coordinate system. Exoplanets are plotted using different colors to indicate whether the exceed a given signal-to-noise ratio (SNR) and whether the planet can be characterized by HWO for a given telescope diameter. Users can observe the impact on HWO's ability to observe these planets by adjusting the diameter or varying the filters. Users can also click on the planet's location to view more details about it, including its SNR and characterizability in the current state.
 
 ## Running Locally
+Requires [Node.js](https://nodejs.org/) version > 22.9.0
 
 Start the development server:
 
